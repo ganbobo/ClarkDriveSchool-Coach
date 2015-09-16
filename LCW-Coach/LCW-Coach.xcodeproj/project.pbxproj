@@ -48,7 +48,7 @@
 		5C137F4D1BA9414D00EC5DF4 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137F171BA9414D00EC5DF4 /* NSString+MD5.m */; };
 		5C137F4E1BA9414D00EC5DF4 /* PMCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137F191BA9414D00EC5DF4 /* PMCommon.m */; };
 		5C137F4F1BA9414D00EC5DF4 /* STDb.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137F1C1BA9414D00EC5DF4 /* STDb.m */; };
-		5C137F501BA9414D00EC5DF4 /* STDbHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137F1E1BA9414D00EC5DF4 /* STDbHandle.m */; };
+		5C137F501BA9414D00EC5DF4 /* STDbHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137F1E1BA9414D00EC5DF4 /* STDbHandle.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		5C137F511BA9414D00EC5DF4 /* STDbObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137F211BA9414D00EC5DF4 /* STDbObject.m */; };
 		5C137F521BA9414D00EC5DF4 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137F241BA9414D00EC5DF4 /* UIViewAdditions.m */; };
 		5C137F531BA9414D00EC5DF4 /* WaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137F261BA9414D00EC5DF4 /* WaitingView.m */; };
@@ -786,7 +786,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "LCW-Coach/Prefix.pch";
-				INFOPLIST_FILE = "LCW-Coach/Info.plist";
+				INFOPLIST_FILE = "LCW-Coach/info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "LCW-Coach";
 			};
@@ -798,7 +798,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "LCW-Coach/Prefix.pch";
-				INFOPLIST_FILE = "LCW-Coach/Info.plist";
+				INFOPLIST_FILE = "LCW-Coach/info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "LCW-Coach";
 			};
