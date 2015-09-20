@@ -15,21 +15,15 @@
 		5C137F2C1BA9414D00EC5DF4 /* AdsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137ED31BA9414D00EC5DF4 /* AdsView.m */; };
 		5C137F2D1BA9414D00EC5DF4 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137ED51BA9414D00EC5DF4 /* HomeController.m */; };
 		5C137F2E1BA9414D00EC5DF4 /* PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137ED71BA9414D00EC5DF4 /* PageControl.m */; };
-		5C137F2F1BA9414D00EC5DF4 /* ShopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137ED91BA9414D00EC5DF4 /* ShopController.m */; };
 		5C137F301BA9414D00EC5DF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C137EDA1BA9414D00EC5DF4 /* Images.xcassets */; };
 		5C137F311BA9414D00EC5DF4 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137EDE1BA9414D00EC5DF4 /* MMMaterialDesignSpinner.m */; };
 		5C137F321BA9414D00EC5DF4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C137EDF1BA9414D00EC5DF4 /* Info.plist */; };
 		5C137F331BA9414D00EC5DF4 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137EE21BA9414D00EC5DF4 /* LoginController.m */; };
 		5C137F341BA9414D00EC5DF4 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137EE41BA9414D00EC5DF4 /* UserInfo.m */; };
 		5C137F351BA9414D00EC5DF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137EE51BA9414D00EC5DF4 /* main.m */; };
-		5C137F361BA9414D00EC5DF4 /* PersonalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137EE81BA9414D00EC5DF4 /* PersonalController.m */; };
 		5C137F371BA9414D00EC5DF4 /* common.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C137EEB1BA9414D00EC5DF4 /* common.xcassets */; };
 		5C137F381BA9414D00EC5DF4 /* home.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C137EEC1BA9414D00EC5DF4 /* home.xcassets */; };
 		5C137F391BA9414D00EC5DF4 /* login.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C137EED1BA9414D00EC5DF4 /* login.xcassets */; };
-		5C137F3A1BA9414D00EC5DF4 /* Course.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C137EF01BA9414D00EC5DF4 /* Course.storyboard */; };
-		5C137F3B1BA9414D00EC5DF4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C137EF11BA9414D00EC5DF4 /* Home.storyboard */; };
-		5C137F3C1BA9414D00EC5DF4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C137EF21BA9414D00EC5DF4 /* Login.storyboard */; };
-		5C137F3D1BA9414D00EC5DF4 /* Personal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C137EF31BA9414D00EC5DF4 /* Personal.storyboard */; };
 		5C137F3E1BA9414D00EC5DF4 /* AFNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137EF61BA9414D00EC5DF4 /* AFNManager.m */; };
 		5C137F3F1BA9414D00EC5DF4 /* CNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137EF81BA9414D00EC5DF4 /* CNotificationManager.m */; };
 		5C137F401BA9414D00EC5DF4 /* CommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137EFA1BA9414D00EC5DF4 /* CommonUtils.m */; };
@@ -91,8 +85,6 @@
 		5C137ED51BA9414D00EC5DF4 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		5C137ED61BA9414D00EC5DF4 /* PageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControl.h; sourceTree = "<group>"; };
 		5C137ED71BA9414D00EC5DF4 /* PageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControl.m; sourceTree = "<group>"; };
-		5C137ED81BA9414D00EC5DF4 /* ShopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopController.h; sourceTree = "<group>"; };
-		5C137ED91BA9414D00EC5DF4 /* ShopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopController.m; sourceTree = "<group>"; };
 		5C137EDA1BA9414D00EC5DF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "LCW-Coach/Images.xcassets"; sourceTree = SOURCE_ROOT; };
 		5C137EDD1BA9414D00EC5DF4 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
 		5C137EDE1BA9414D00EC5DF4 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
@@ -102,17 +94,11 @@
 		5C137EE31BA9414D00EC5DF4 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		5C137EE41BA9414D00EC5DF4 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		5C137EE51BA9414D00EC5DF4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "LCW-Coach/main.m"; sourceTree = SOURCE_ROOT; };
-		5C137EE71BA9414D00EC5DF4 /* PersonalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalController.h; sourceTree = "<group>"; };
-		5C137EE81BA9414D00EC5DF4 /* PersonalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalController.m; sourceTree = "<group>"; };
 		5C137EE91BA9414D00EC5DF4 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = "LCW-Coach/Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		5C137EEB1BA9414D00EC5DF4 /* common.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = common.xcassets; sourceTree = "<group>"; };
 		5C137EEC1BA9414D00EC5DF4 /* home.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = home.xcassets; sourceTree = "<group>"; };
 		5C137EED1BA9414D00EC5DF4 /* login.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = login.xcassets; sourceTree = "<group>"; };
 		5C137EEE1BA9414D00EC5DF4 /* ServerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerConfig.h; path = "LCW-Coach/ServerConfig.h"; sourceTree = SOURCE_ROOT; };
-		5C137EF01BA9414D00EC5DF4 /* Course.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Course.storyboard; sourceTree = "<group>"; };
-		5C137EF11BA9414D00EC5DF4 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		5C137EF21BA9414D00EC5DF4 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		5C137EF31BA9414D00EC5DF4 /* Personal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Personal.storyboard; sourceTree = "<group>"; };
 		5C137EF51BA9414D00EC5DF4 /* AFNManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNManager.h; sourceTree = "<group>"; };
 		5C137EF61BA9414D00EC5DF4 /* AFNManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNManager.m; sourceTree = "<group>"; };
 		5C137EF71BA9414D00EC5DF4 /* CNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNotificationManager.h; sourceTree = "<group>"; };
@@ -223,8 +209,6 @@
 				5C137ED51BA9414D00EC5DF4 /* HomeController.m */,
 				5C137ED61BA9414D00EC5DF4 /* PageControl.h */,
 				5C137ED71BA9414D00EC5DF4 /* PageControl.m */,
-				5C137ED81BA9414D00EC5DF4 /* ShopController.h */,
-				5C137ED91BA9414D00EC5DF4 /* ShopController.m */,
 			);
 			name = Home;
 			path = "LCW-Coach/Home";
@@ -260,16 +244,6 @@
 			path = "LCW-Coach/Login";
 			sourceTree = SOURCE_ROOT;
 		};
-		5C137EE61BA9414D00EC5DF4 /* Personal */ = {
-			isa = PBXGroup;
-			children = (
-				5C137EE71BA9414D00EC5DF4 /* PersonalController.h */,
-				5C137EE81BA9414D00EC5DF4 /* PersonalController.m */,
-			);
-			name = Personal;
-			path = "LCW-Coach/Personal";
-			sourceTree = SOURCE_ROOT;
-		};
 		5C137EEA1BA9414D00EC5DF4 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,18 +253,6 @@
 			);
 			name = Resource;
 			path = "LCW-Coach/Resource";
-			sourceTree = SOURCE_ROOT;
-		};
-		5C137EEF1BA9414D00EC5DF4 /* StoryBoard */ = {
-			isa = PBXGroup;
-			children = (
-				5C137EF01BA9414D00EC5DF4 /* Course.storyboard */,
-				5C137EF11BA9414D00EC5DF4 /* Home.storyboard */,
-				5C137EF21BA9414D00EC5DF4 /* Login.storyboard */,
-				5C137EF31BA9414D00EC5DF4 /* Personal.storyboard */,
-			);
-			name = StoryBoard;
-			path = "LCW-Coach/StoryBoard";
 			sourceTree = SOURCE_ROOT;
 		};
 		5C137EF41BA9414D00EC5DF4 /* Utils */ = {
@@ -414,9 +376,7 @@
 				5C137ECD1BA9414D00EC5DF4 /* Home */,
 				5C137EDB1BA9414D00EC5DF4 /* Include */,
 				5C137EE01BA9414D00EC5DF4 /* Login */,
-				5C137EE61BA9414D00EC5DF4 /* Personal */,
 				5C137EEA1BA9414D00EC5DF4 /* Resource */,
-				5C137EEF1BA9414D00EC5DF4 /* StoryBoard */,
 				5C137EF41BA9414D00EC5DF4 /* Utils */,
 				5C137F541BA9417E00EC5DF4 /* LaunchScreen.xib */,
 				5C137F561BA9417E00EC5DF4 /* Main.storyboard */,
@@ -523,7 +483,7 @@
 		5C6CFCA01B8DEFFE00A76E56 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Clark;
 				TargetAttributes = {
 					5C6CFCA71B8DEFFE00A76E56 = {
@@ -561,15 +521,11 @@
 			files = (
 				5C137F581BA9417E00EC5DF4 /* LaunchScreen.xib in Resources */,
 				5C137F371BA9414D00EC5DF4 /* common.xcassets in Resources */,
-				5C137F3B1BA9414D00EC5DF4 /* Home.storyboard in Resources */,
 				5C137F301BA9414D00EC5DF4 /* Images.xcassets in Resources */,
 				5C137F391BA9414D00EC5DF4 /* login.xcassets in Resources */,
 				5C137F591BA9417E00EC5DF4 /* Main.storyboard in Resources */,
-				5C137F3D1BA9414D00EC5DF4 /* Personal.storyboard in Resources */,
 				5C137F321BA9414D00EC5DF4 /* Info.plist in Resources */,
 				5C137F381BA9414D00EC5DF4 /* home.xcassets in Resources */,
-				5C137F3A1BA9414D00EC5DF4 /* Course.storyboard in Resources */,
-				5C137F3C1BA9414D00EC5DF4 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,10 +599,8 @@
 				5C137F641BA9428200EC5DF4 /* BaseViewController.m in Sources */,
 				5C137F451BA9414D00EC5DF4 /* MJIvar.m in Sources */,
 				5C137F501BA9414D00EC5DF4 /* STDbHandle.m in Sources */,
-				5C137F361BA9414D00EC5DF4 /* PersonalController.m in Sources */,
 				5C137F4D1BA9414D00EC5DF4 /* NSString+MD5.m in Sources */,
 				5C137F331BA9414D00EC5DF4 /* LoginController.m in Sources */,
-				5C137F2F1BA9414D00EC5DF4 /* ShopController.m in Sources */,
 				5C137F4E1BA9414D00EC5DF4 /* PMCommon.m in Sources */,
 				5C137F2B1BA9414D00EC5DF4 /* AdsInfo.m in Sources */,
 				5C137F411BA9414D00EC5DF4 /* JSONKit.m in Sources */,
@@ -721,6 +675,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -788,6 +743,7 @@
 				GCC_PREFIX_HEADER = "LCW-Coach/Prefix.pch";
 				INFOPLIST_FILE = "LCW-Coach/info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lingcongwang.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "LCW-Coach";
 			};
 			name = Debug;
@@ -800,6 +756,7 @@
 				GCC_PREFIX_HEADER = "LCW-Coach/Prefix.pch";
 				INFOPLIST_FILE = "LCW-Coach/info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lingcongwang.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "LCW-Coach";
 			};
 			name = Release;
@@ -818,6 +775,7 @@
 				);
 				INFOPLIST_FILE = LCWTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lingcongwang.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "LCW-CoachTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCW.app/LCW";
 			};
@@ -833,6 +791,7 @@
 				);
 				INFOPLIST_FILE = LCWTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lingcongwang.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "LCW-CoachTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCW.app/LCW";
 			};
