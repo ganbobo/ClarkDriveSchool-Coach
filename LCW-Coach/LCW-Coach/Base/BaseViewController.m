@@ -30,7 +30,7 @@
     _isFirstIn = YES;
     
     if (self.navigationController.viewControllers.count > 1) {
-        [PMCommon setNavigationBarLeftButton:self withBtnNormalImg:[UIImage imageNamed:@"back_ico"] withBtnPresImg:nil withTitle:nil withAction:@selector(goBack)];
+        [PMCommon setNavigationBarLeftButton:self withBtnNormalImg:[UIImage imageNamed:@"back_ico"] withAction:@selector(goBack)];
     }
 }
 

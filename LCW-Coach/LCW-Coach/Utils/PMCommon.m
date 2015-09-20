@@ -10,57 +10,15 @@
 @implementation PMCommon
 
 //自定义左边按钮
-+ (void)setNavigationBarLeftButton:(UIViewController *)viewController withBtnNormalImg:(UIImage *)normalImage withBtnPresImg:(UIImage *)pressImage withTitle:(NSString *)title withAction:(SEL)action {
-    UIButton *leftBtn = [[UIButton alloc] init];
-    leftBtn.frame = CGRectMake(0, 0,normalImage.size.width, normalImage.size.height);
-    if (title && title.length > 0) {
-        CGSize size = [title sizeWithAttributes:@{NSFontAttributeName: [UIFont systemFontOfSize:15]}];
-        [leftBtn setWidth:normalImage.size.width + size.width];
-    }
-    [leftBtn setImage:normalImage forState:UIControlStateNormal];
-    [leftBtn setImage:pressImage forState:UIControlStateHighlighted];
-    [leftBtn setImageEdgeInsets:UIEdgeInsetsMake(0, -6, 0, 0)];
-    leftBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
-    [leftBtn setTitle:title forState:UIControlStateNormal];
-    leftBtn.titleLabel.font = [UIFont systemFontOfSize:15];
-    [leftBtn addTarget:viewController action:action forControlEvents:UIControlEventTouchUpInside];
++ (void)setNavigationBarLeftButton:(UIViewController *)viewController withBtnNormalImg:(UIImage *)normalImage withAction:(SEL)action {
     
-    UIBarButtonItem* left = [[UIBarButtonItem alloc] initWithCustomView:leftBtn];
+    UIBarButtonItem* left = [[UIBarButtonItem alloc] initWithImage:normalImage style:UIBarButtonItemStylePlain target:viewController action:action];
     viewController.navigationItem.leftBarButtonItem =  left;
 }
 
 //自定义右边按钮
-+ (void)setNavigationBarRightButton:(UIViewController *)viewController withBtnNormalImg:(UIImage *)normalImage withBtnPresImg:(UIImage *)pressImage withTitle:(NSString *)title withAction:(SEL)action {
-    UIButton *rightBtn = [[UIButton alloc] init] ;
-    UIFont *font = nil;
-    if (!normalImage) {
-        if (title.length >= 4) {
-            font = [UIFont systemFontOfSize:10];
-        }else{
-            font = [UIFont systemFontOfSize:14];
-        }
-        
-        CGSize size = [title sizeWithAttributes:@{NSFontAttributeName: font}];
-        rightBtn.frame = CGRectMake(0, 0, size.width, size.height);
-    } else {
-        rightBtn.frame = CGRectMake(0, 0,normalImage.size.width, normalImage.size.height);
-    }
-    [rightBtn setImageEdgeInsets:UIEdgeInsetsMake(0, 20, 0, 0)];
-    rightBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
-    [rightBtn setBackgroundImage:normalImage forState:UIControlStateNormal];
-    [rightBtn setBackgroundImage:pressImage forState:UIControlStateHighlighted];
-    [rightBtn addTarget:viewController action:action forControlEvents:UIControlEventTouchUpInside];
-    [rightBtn setTitle:title forState:UIControlStateNormal];
-    [rightBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    if (!IOS7 && !normalImage) {
-        rightBtn.frame = CGRectMake(0, 0, normalImage.size.width + 7, normalImage.size.height);
-        rightBtn.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 7);
-    }
-    
-    rightBtn.titleLabel.textAlignment = 1;
-    rightBtn.titleLabel.font = font;
-    rightBtn.titleLabel.shadowOffset = CGSizeMake(1, 1);
-    UIBarButtonItem* right =  [[UIBarButtonItem alloc] initWithCustomView:rightBtn];
++ (void)setNavigationBarRightButton:(UIViewController *)viewController withBtnNormalImg:(UIImage *)normalImage withAction:(SEL)action {
+    UIBarButtonItem* right = [[UIBarButtonItem alloc] initWithImage:normalImage style:UIBarButtonItemStylePlain target:viewController action:action];
     viewController.navigationItem.rightBarButtonItem =  right;
 }
 

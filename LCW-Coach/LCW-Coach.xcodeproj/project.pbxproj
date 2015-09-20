@@ -8,13 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C137F271BA9414D00EC5DF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137EC51BA9414D00EC5DF4 /* AppDelegate.m */; };
-		5C137F281BA9414D00EC5DF4 /* CourseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137EC91BA9414D00EC5DF4 /* CourseCell.m */; };
-		5C137F291BA9414D00EC5DF4 /* CourseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137ECB1BA9414D00EC5DF4 /* CourseController.m */; };
-		5C137F2A1BA9414D00EC5DF4 /* ADScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137ECF1BA9414D00EC5DF4 /* ADScrollView.m */; };
-		5C137F2B1BA9414D00EC5DF4 /* AdsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137ED11BA9414D00EC5DF4 /* AdsInfo.m */; };
-		5C137F2C1BA9414D00EC5DF4 /* AdsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137ED31BA9414D00EC5DF4 /* AdsView.m */; };
 		5C137F2D1BA9414D00EC5DF4 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137ED51BA9414D00EC5DF4 /* HomeController.m */; };
-		5C137F2E1BA9414D00EC5DF4 /* PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137ED71BA9414D00EC5DF4 /* PageControl.m */; };
 		5C137F301BA9414D00EC5DF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C137EDA1BA9414D00EC5DF4 /* Images.xcassets */; };
 		5C137F311BA9414D00EC5DF4 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137EDE1BA9414D00EC5DF4 /* MMMaterialDesignSpinner.m */; };
 		5C137F321BA9414D00EC5DF4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C137EDF1BA9414D00EC5DF4 /* Info.plist */; };
@@ -50,7 +44,11 @@
 		5C137F591BA9417E00EC5DF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C137F561BA9417E00EC5DF4 /* Main.storyboard */; };
 		5C137F631BA9428200EC5DF4 /* BaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137F5E1BA9428200EC5DF4 /* BaseNavController.m */; };
 		5C137F641BA9428200EC5DF4 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137F601BA9428200EC5DF4 /* BaseViewController.m */; };
-		5C137F651BA9428200EC5DF4 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137F621BA9428200EC5DF4 /* TabViewController.m */; };
+		5C68C5561BAEFE2C00E55F01 /* HFStretchableTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C68C5551BAEFE2C00E55F01 /* HFStretchableTableHeaderView.m */; settings = {ASSET_TAGS = (); }; };
+		5C68C55A1BAF00A000E55F01 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C68C5591BAF00A000E55F01 /* Login.storyboard */; settings = {ASSET_TAGS = (); }; };
+		5C68C5611BAF00FF00E55F01 /* ForgetPwdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C68C55C1BAF00FF00E55F01 /* ForgetPwdController.m */; settings = {ASSET_TAGS = (); }; };
+		5C68C5621BAF00FF00E55F01 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C68C55E1BAF00FF00E55F01 /* RegisterController.m */; settings = {ASSET_TAGS = (); }; };
+		5C68C5631BAF00FF00E55F01 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C68C5601BAF00FF00E55F01 /* UserManager.m */; settings = {ASSET_TAGS = (); }; };
 		5C6CFCCB1B8DEFFE00A76E56 /* LCWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CFCCA1B8DEFFE00A76E56 /* LCWTests.m */; };
 		5C6CFD3E1B8E032700A76E56 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6CFD3D1B8E032700A76E56 /* libsqlite3.dylib */; };
 		96026448BA55720DF71FB0FD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD64CE4BC48D9EF81AA6791F /* libPods.a */; };
@@ -70,21 +68,9 @@
 		5C137EC41BA9414D00EC5DF4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "LCW-Coach/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
 		5C137EC51BA9414D00EC5DF4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "LCW-Coach/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
 		5C137EC61BA9414D00EC5DF4 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = "LCW-Coach/Constants.h"; sourceTree = SOURCE_ROOT; };
-		5C137EC81BA9414D00EC5DF4 /* CourseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseCell.h; sourceTree = "<group>"; };
-		5C137EC91BA9414D00EC5DF4 /* CourseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseCell.m; sourceTree = "<group>"; };
-		5C137ECA1BA9414D00EC5DF4 /* CourseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseController.h; sourceTree = "<group>"; };
-		5C137ECB1BA9414D00EC5DF4 /* CourseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseController.m; sourceTree = "<group>"; };
 		5C137ECC1BA9414D00EC5DF4 /* EnumType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnumType.h; path = "LCW-Coach/EnumType.h"; sourceTree = SOURCE_ROOT; };
-		5C137ECE1BA9414D00EC5DF4 /* ADScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADScrollView.h; sourceTree = "<group>"; };
-		5C137ECF1BA9414D00EC5DF4 /* ADScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADScrollView.m; sourceTree = "<group>"; };
-		5C137ED01BA9414D00EC5DF4 /* AdsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsInfo.h; sourceTree = "<group>"; };
-		5C137ED11BA9414D00EC5DF4 /* AdsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsInfo.m; sourceTree = "<group>"; };
-		5C137ED21BA9414D00EC5DF4 /* AdsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsView.h; sourceTree = "<group>"; };
-		5C137ED31BA9414D00EC5DF4 /* AdsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsView.m; sourceTree = "<group>"; };
 		5C137ED41BA9414D00EC5DF4 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
 		5C137ED51BA9414D00EC5DF4 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
-		5C137ED61BA9414D00EC5DF4 /* PageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControl.h; sourceTree = "<group>"; };
-		5C137ED71BA9414D00EC5DF4 /* PageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControl.m; sourceTree = "<group>"; };
 		5C137EDA1BA9414D00EC5DF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "LCW-Coach/Images.xcassets"; sourceTree = SOURCE_ROOT; };
 		5C137EDD1BA9414D00EC5DF4 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
 		5C137EDE1BA9414D00EC5DF4 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
@@ -152,8 +138,15 @@
 		5C137F5E1BA9428200EC5DF4 /* BaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavController.m; sourceTree = "<group>"; };
 		5C137F5F1BA9428200EC5DF4 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		5C137F601BA9428200EC5DF4 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		5C137F611BA9428200EC5DF4 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
-		5C137F621BA9428200EC5DF4 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		5C68C5541BAEFE2C00E55F01 /* HFStretchableTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFStretchableTableHeaderView.h; sourceTree = "<group>"; };
+		5C68C5551BAEFE2C00E55F01 /* HFStretchableTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFStretchableTableHeaderView.m; sourceTree = "<group>"; };
+		5C68C5591BAF00A000E55F01 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = "LCW-Coach/Login.storyboard"; sourceTree = SOURCE_ROOT; };
+		5C68C55B1BAF00FF00E55F01 /* ForgetPwdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPwdController.h; sourceTree = "<group>"; };
+		5C68C55C1BAF00FF00E55F01 /* ForgetPwdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdController.m; sourceTree = "<group>"; };
+		5C68C55D1BAF00FF00E55F01 /* RegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		5C68C55E1BAF00FF00E55F01 /* RegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
+		5C68C55F1BAF00FF00E55F01 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		5C68C5601BAF00FF00E55F01 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
 		5C6CFCA81B8DEFFE00A76E56 /* LCW-Coach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LCW-Coach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6CFCC41B8DEFFE00A76E56 /* LCW-CoachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LCW-CoachTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6CFCC91B8DEFFE00A76E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -184,31 +177,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5C137EC71BA9414D00EC5DF4 /* Course */ = {
-			isa = PBXGroup;
-			children = (
-				5C137EC81BA9414D00EC5DF4 /* CourseCell.h */,
-				5C137EC91BA9414D00EC5DF4 /* CourseCell.m */,
-				5C137ECA1BA9414D00EC5DF4 /* CourseController.h */,
-				5C137ECB1BA9414D00EC5DF4 /* CourseController.m */,
-			);
-			name = Course;
-			path = "LCW-Coach/Course";
-			sourceTree = SOURCE_ROOT;
-		};
 		5C137ECD1BA9414D00EC5DF4 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				5C137ECE1BA9414D00EC5DF4 /* ADScrollView.h */,
-				5C137ECF1BA9414D00EC5DF4 /* ADScrollView.m */,
-				5C137ED01BA9414D00EC5DF4 /* AdsInfo.h */,
-				5C137ED11BA9414D00EC5DF4 /* AdsInfo.m */,
-				5C137ED21BA9414D00EC5DF4 /* AdsView.h */,
-				5C137ED31BA9414D00EC5DF4 /* AdsView.m */,
 				5C137ED41BA9414D00EC5DF4 /* HomeController.h */,
 				5C137ED51BA9414D00EC5DF4 /* HomeController.m */,
-				5C137ED61BA9414D00EC5DF4 /* PageControl.h */,
-				5C137ED71BA9414D00EC5DF4 /* PageControl.m */,
 			);
 			name = Home;
 			path = "LCW-Coach/Home";
@@ -235,6 +208,12 @@
 		5C137EE01BA9414D00EC5DF4 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				5C68C55B1BAF00FF00E55F01 /* ForgetPwdController.h */,
+				5C68C55C1BAF00FF00E55F01 /* ForgetPwdController.m */,
+				5C68C55D1BAF00FF00E55F01 /* RegisterController.h */,
+				5C68C55E1BAF00FF00E55F01 /* RegisterController.m */,
+				5C68C55F1BAF00FF00E55F01 /* UserManager.h */,
+				5C68C5601BAF00FF00E55F01 /* UserManager.m */,
 				5C137EE11BA9414D00EC5DF4 /* LoginController.h */,
 				5C137EE21BA9414D00EC5DF4 /* LoginController.m */,
 				5C137EE31BA9414D00EC5DF4 /* UserInfo.h */,
@@ -258,6 +237,7 @@
 		5C137EF41BA9414D00EC5DF4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5C68C5531BAEFE2C00E55F01 /* HF */,
 				5C137EF51BA9414D00EC5DF4 /* AFNManager.h */,
 				5C137EF61BA9414D00EC5DF4 /* AFNManager.m */,
 				5C137EF71BA9414D00EC5DF4 /* CNotificationManager.h */,
@@ -341,12 +321,19 @@
 				5C137F5E1BA9428200EC5DF4 /* BaseNavController.m */,
 				5C137F5F1BA9428200EC5DF4 /* BaseViewController.h */,
 				5C137F601BA9428200EC5DF4 /* BaseViewController.m */,
-				5C137F611BA9428200EC5DF4 /* TabViewController.h */,
-				5C137F621BA9428200EC5DF4 /* TabViewController.m */,
 			);
 			name = Base;
 			path = "LCW-Coach/Base";
 			sourceTree = SOURCE_ROOT;
+		};
+		5C68C5531BAEFE2C00E55F01 /* HF */ = {
+			isa = PBXGroup;
+			children = (
+				5C68C5541BAEFE2C00E55F01 /* HFStretchableTableHeaderView.h */,
+				5C68C5551BAEFE2C00E55F01 /* HFStretchableTableHeaderView.m */,
+			);
+			path = HF;
+			sourceTree = "<group>";
 		};
 		5C6CFC9F1B8DEFFE00A76E56 = {
 			isa = PBXGroup;
@@ -372,7 +359,6 @@
 			isa = PBXGroup;
 			children = (
 				5C137F5C1BA9428200EC5DF4 /* Base */,
-				5C137EC71BA9414D00EC5DF4 /* Course */,
 				5C137ECD1BA9414D00EC5DF4 /* Home */,
 				5C137EDB1BA9414D00EC5DF4 /* Include */,
 				5C137EE01BA9414D00EC5DF4 /* Login */,
@@ -380,6 +366,7 @@
 				5C137EF41BA9414D00EC5DF4 /* Utils */,
 				5C137F541BA9417E00EC5DF4 /* LaunchScreen.xib */,
 				5C137F561BA9417E00EC5DF4 /* Main.storyboard */,
+				5C68C5591BAF00A000E55F01 /* Login.storyboard */,
 				5C137EC41BA9414D00EC5DF4 /* AppDelegate.h */,
 				5C137EC51BA9414D00EC5DF4 /* AppDelegate.m */,
 				5C137EC61BA9414D00EC5DF4 /* Constants.h */,
@@ -519,6 +506,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C68C55A1BAF00A000E55F01 /* Login.storyboard in Resources */,
 				5C137F581BA9417E00EC5DF4 /* LaunchScreen.xib in Resources */,
 				5C137F371BA9414D00EC5DF4 /* common.xcassets in Resources */,
 				5C137F301BA9414D00EC5DF4 /* Images.xcassets in Resources */,
@@ -576,22 +564,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C137F2A1BA9414D00EC5DF4 /* ADScrollView.m in Sources */,
+				5C68C5631BAF00FF00E55F01 /* UserManager.m in Sources */,
+				5C68C5561BAEFE2C00E55F01 /* HFStretchableTableHeaderView.m in Sources */,
 				5C137F4C1BA9414D00EC5DF4 /* NSObject+MJMember.m in Sources */,
-				5C137F281BA9414D00EC5DF4 /* CourseCell.m in Sources */,
 				5C137F3F1BA9414D00EC5DF4 /* CNotificationManager.m in Sources */,
 				5C137F3E1BA9414D00EC5DF4 /* AFNManager.m in Sources */,
 				5C137F631BA9428200EC5DF4 /* BaseNavController.m in Sources */,
-				5C137F651BA9428200EC5DF4 /* TabViewController.m in Sources */,
 				5C137F421BA9414D00EC5DF4 /* MJArgument.m in Sources */,
+				5C68C5611BAF00FF00E55F01 /* ForgetPwdController.m in Sources */,
 				5C137F531BA9414D00EC5DF4 /* WaitingView.m in Sources */,
-				5C137F2E1BA9414D00EC5DF4 /* PageControl.m in Sources */,
 				5C137F401BA9414D00EC5DF4 /* CommonUtils.m in Sources */,
 				5C137F491BA9414D00EC5DF4 /* MJTypeEncoding.m in Sources */,
 				5C137F521BA9414D00EC5DF4 /* UIViewAdditions.m in Sources */,
 				5C137F441BA9414D00EC5DF4 /* MJFoundation.m in Sources */,
 				5C137F481BA9414D00EC5DF4 /* MJType.m in Sources */,
-				5C137F291BA9414D00EC5DF4 /* CourseController.m in Sources */,
 				5C137F471BA9414D00EC5DF4 /* MJMethod.m in Sources */,
 				5C137F511BA9414D00EC5DF4 /* STDbObject.m in Sources */,
 				5C137F341BA9414D00EC5DF4 /* UserInfo.m in Sources */,
@@ -602,7 +588,6 @@
 				5C137F4D1BA9414D00EC5DF4 /* NSString+MD5.m in Sources */,
 				5C137F331BA9414D00EC5DF4 /* LoginController.m in Sources */,
 				5C137F4E1BA9414D00EC5DF4 /* PMCommon.m in Sources */,
-				5C137F2B1BA9414D00EC5DF4 /* AdsInfo.m in Sources */,
 				5C137F411BA9414D00EC5DF4 /* JSONKit.m in Sources */,
 				5C137F461BA9414D00EC5DF4 /* MJMember.m in Sources */,
 				5C137F4A1BA9414D00EC5DF4 /* NSObject+MJCoding.m in Sources */,
@@ -612,7 +597,7 @@
 				5C137F2D1BA9414D00EC5DF4 /* HomeController.m in Sources */,
 				5C137F311BA9414D00EC5DF4 /* MMMaterialDesignSpinner.m in Sources */,
 				5C137F4B1BA9414D00EC5DF4 /* NSObject+MJKeyValue.m in Sources */,
-				5C137F2C1BA9414D00EC5DF4 /* AdsView.m in Sources */,
+				5C68C5621BAF00FF00E55F01 /* RegisterController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

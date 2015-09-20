@@ -34,7 +34,7 @@
 
 - (void)loadNav {
     [PMCommon setNavigationTitle:self withTitle:@"登录"];
-    [PMCommon setNavigationBarLeftButton:self withBtnNormalImg:[UIImage imageNamed:@"back_ico"] withBtnPresImg:nil withTitle:nil withAction:@selector(clickCancel)];
+    [PMCommon setNavigationBarLeftButton:self withBtnNormalImg:[UIImage imageNamed:@"back_ico"] withAction:@selector(clickCancel)];
 }
 
 - (void)clickCancel {

@@ -16,6 +16,7 @@
 
 - (void)loadView {
     [super loadView];
+    [self.navigationBar setTintColor:[UIColor whiteColor]];
 }
 
 - (void)viewDidLoad {

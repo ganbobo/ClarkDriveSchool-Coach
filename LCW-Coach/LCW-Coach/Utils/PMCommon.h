@@ -10,9 +10,9 @@
 @interface PMCommon : NSObject
 
 //自定义左边按钮
-+ (void)setNavigationBarLeftButton:(UIViewController *)viewController withBtnNormalImg:(UIImage *)normalImage withBtnPresImg:(UIImage *)pressImage withTitle:(NSString *)title withAction:(SEL)action;
++ (void)setNavigationBarLeftButton:(UIViewController *)viewController withBtnNormalImg:(UIImage *)normalImage withAction:(SEL)action;
 //自定义右边按钮
-+ (void)setNavigationBarRightButton:(UIViewController *)viewController withBtnNormalImg:(UIImage *)normalImage withBtnPresImg:(UIImage *)pressImage withTitle:(NSString *)title withAction:(SEL)action;
++ (void)setNavigationBarRightButton:(UIViewController *)viewController withBtnNormalImg:(UIImage *)normalImage withAction:(SEL)action;
 
 //自定义右边按钮(两个按钮)
 + (void)setNavigationBarRightButtons:(UIViewController *)viewController
