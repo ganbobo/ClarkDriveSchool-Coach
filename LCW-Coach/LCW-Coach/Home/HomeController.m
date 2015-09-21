@@ -13,7 +13,7 @@
 #define kHeaderViewHeight        (165.0 / 320 * ScreenWidth)
 #define kFooterViewHeight        ((568 - 160 - 64 - 49.0) / 320 * ScreenWidth)
 
-@interface HomeController () {
+@interface HomeController ()<UITableViewDataSource, UITableViewDelegate> {
     __weak IBOutlet UIView *_headerView;
     __weak IBOutlet UITableView *_tableView;
     __weak IBOutlet UIView *_footerView;
@@ -49,8 +49,8 @@
     [PMCommon setNavigationTitle:self withTitle:@"教练中心"];
 }
 - (void)loadFooterView {
-//    [_footerView setHeight:kFooterViewHeight];
-//    [_tableView setTableFooterView:_footerView];
+    [_footerView setHeight:kFooterViewHeight];
+    [_tableView setTableFooterView:_footerView];
 }
 
 - (void)loadHeaderView {
@@ -88,6 +88,28 @@
     } else {
         _avatarImage.image = nil;
     }
+}
+
+#pragma - mark UIScrollViewDelegate
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    [_stretchView scrollViewDidScroll:scrollView];
+}
+
+#pragma - mark UITableViewDataSource, UITableViewDelegate 代理
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 0;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 0;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    
+    return cell;
 }
 
 #pragma - mark 按钮点击事件
