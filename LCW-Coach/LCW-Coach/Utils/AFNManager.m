@@ -8,7 +8,7 @@
 
 #import "AFNManager.h"
 
-#import "JSONKit.h"
+#import "JsonUtils.h"
 
 @implementation AFNManager
 
@@ -39,7 +39,7 @@
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
     [manager GET:[self _getServerAddress:serverAddress] parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        CLog(@"request url is %@ \n params is %@ \n reponse is %@", serverAddress, params, [(NSDictionary *)responseObject JSONString]);
+        CLog(@"request url is %@ \n params is %@ \n reponse is %@", serverAddress, params, [(NSDictionary *)responseObject JSONNSString]);
         [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
         if (callBack) {
             callBack((NSDictionary *)responseObject, nil);
@@ -65,7 +65,7 @@
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
     [manager POST:[self _getServerAddress:serverAddress] parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        CLog(@"request url is %@ \n params is %@ \n reponse is %@", serverAddress, params, [(NSDictionary *)responseObject JSONString]);
+        CLog(@"request url is %@ \n params is %@ \n reponse is %@", serverAddress, params, [(NSDictionary *)responseObject JSONNSString]);
         [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
         if (callBack) {
             callBack((NSDictionary *)responseObject, nil);
@@ -97,7 +97,7 @@
     
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
     [manager GET:[self _getServerAddress:serverAddress] parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        CLog(@"request url is %@ \n params is %@ \n reponse is %@", serverAddress, params, [(NSDictionary *)responseObject JSONString]);
+        CLog(@"request url is %@ \n params is %@ \n reponse is %@", serverAddress, params, [(NSDictionary *)responseObject JSONNSString]);
         [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
         if (callBack) {
             callBack((NSDictionary *)responseObject, nil);
@@ -131,7 +131,7 @@
             [formData appendPartWithFileData:data name:@"img" fileName:[NSString stringWithFormat:@"%@.jpg", getUUIDString()] mimeType:@"image/jpg"];
         }
     } success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        CLog(@"request url is %@ \n params is %@ \n reponse is %@", serverAddress, params, [(NSDictionary *)responseObject JSONString]);
+        CLog(@"request url is %@ \n params is %@ \n reponse is %@", serverAddress, params, [(NSDictionary *)responseObject JSONNSString]);
         [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
         if (callBack) {
             callBack((NSDictionary *)responseObject, nil);

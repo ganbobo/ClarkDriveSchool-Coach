@@ -113,6 +113,25 @@
 }
 
 #pragma - mark 按钮点击事件
+- (IBAction)clickSignUp:(id)sender {
+    [self performSegueWithIdentifier:@"SignUp" sender:sender];
+}
+
+- (IBAction)clickCourse:(id)sender {
+    [self performSegueWithIdentifier:@"Course" sender:sender];
+}
+
+- (IBAction)clickPreOrder:(id)sender {
+    [self performSegueWithIdentifier:@"PreOrder" sender:sender];
+}
+
+- (IBAction)clickComment:(id)sender {
+    [self performSegueWithIdentifier:@"Comment" sender:sender];
+}
+
+- (IBAction)clickStudent:(id)sender {
+    [self performSegueWithIdentifier:@"Student" sender:sender];
+}
 
 #pragma - mark 点击头像及昵称触发方法
 
