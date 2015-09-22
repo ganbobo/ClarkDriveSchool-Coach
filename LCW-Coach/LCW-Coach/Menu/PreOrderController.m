@@ -8,7 +8,12 @@
 
 #import "PreOrderController.h"
 
-@interface PreOrderController ()
+#import "PreOrderCell.h"
+
+@interface PreOrderController () <UITableViewDelegate, UITableViewDataSource> {
+    
+    __weak IBOutlet UITableView *_tableView;
+}
 
 @end
 
@@ -24,14 +29,32 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)loadView {
+    [super loadView];
+    [self loadNav];
 }
-*/
+
+#pragma - mark 加载界面
+
+- (void)loadNav {
+    [PMCommon setNavigationTitle:self withTitle:@"预约考试"];
+}
+
+#pragma - mark UITableViewDataSource, UITableViewDelegate 代理
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 20;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 44;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    PreOrderCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PreOrderCell" forIndexPath:indexPath];
+    
+    return cell;
+}
+
 
 @end
