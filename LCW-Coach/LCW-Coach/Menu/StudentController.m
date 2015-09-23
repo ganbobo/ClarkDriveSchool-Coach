@@ -8,7 +8,12 @@
 
 #import "StudentController.h"
 
-@interface StudentController ()
+#import "StudentCell.h"
+
+@interface StudentController ()<UITableViewDataSource, UITableViewDelegate> {
+    
+    __weak IBOutlet UITableView *_tableView;
+}
 
 @end
 
@@ -33,6 +38,30 @@
 
 - (void)loadNav {
     [PMCommon setNavigationTitle:self withTitle:@"学员信息"];
+}
+
+#pragma - mark UITableViewDataSource, UITableViewDelegate 代理
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 3;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 44;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    StudentCell *cell = [tableView dequeueReusableCellWithIdentifier:@"StudentCell" forIndexPath:indexPath];
+    
+    
+    cell.detailTextLabel.text = @"32";
+    [cell configureCell:indexPath];
+    
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 @end

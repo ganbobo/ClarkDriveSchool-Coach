@@ -15,6 +15,7 @@
 		4B08E61E1BB1A17600DAF2E9 /* StudentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B08E61D1BB1A17600DAF2E9 /* StudentController.m */; settings = {ASSET_TAGS = (); }; };
 		4B08E6221BB1A27F00DAF2E9 /* JsonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B08E6211BB1A27F00DAF2E9 /* JsonUtils.m */; settings = {ASSET_TAGS = (); }; };
 		4B08E62A1BB1A80F00DAF2E9 /* PreOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B08E6291BB1A80F00DAF2E9 /* PreOrderCell.m */; settings = {ASSET_TAGS = (); }; };
+		4BA16A2B1BB2EF2E00A4F42A /* StudentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA16A2A1BB2EF2E00A4F42A /* StudentCell.m */; settings = {ASSET_TAGS = (); }; };
 		5C137F271BA9414D00EC5DF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137EC51BA9414D00EC5DF4 /* AppDelegate.m */; };
 		5C137F301BA9414D00EC5DF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C137EDA1BA9414D00EC5DF4 /* Images.xcassets */; };
 		5C137F311BA9414D00EC5DF4 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137EDE1BA9414D00EC5DF4 /* MMMaterialDesignSpinner.m */; };
@@ -87,6 +88,8 @@
 		4B08E6211BB1A27F00DAF2E9 /* JsonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonUtils.m; sourceTree = "<group>"; };
 		4B08E6281BB1A80F00DAF2E9 /* PreOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreOrderCell.h; sourceTree = "<group>"; };
 		4B08E6291BB1A80F00DAF2E9 /* PreOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreOrderCell.m; sourceTree = "<group>"; };
+		4BA16A291BB2EF2E00A4F42A /* StudentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentCell.h; sourceTree = "<group>"; };
+		4BA16A2A1BB2EF2E00A4F42A /* StudentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentCell.m; sourceTree = "<group>"; };
 		5C137EC41BA9414D00EC5DF4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "LCW-Coach/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
 		5C137EC51BA9414D00EC5DF4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "LCW-Coach/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
 		5C137EC61BA9414D00EC5DF4 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = "LCW-Coach/Constants.h"; sourceTree = SOURCE_ROOT; };
@@ -221,6 +224,7 @@
 		4B08E60B1BB1A0B400DAF2E9 /* student */ = {
 			isa = PBXGroup;
 			children = (
+				4BA16A281BB2EF2000A4F42A /* view */,
 				4B08E61C1BB1A17600DAF2E9 /* StudentController.h */,
 				4B08E61D1BB1A17600DAF2E9 /* StudentController.m */,
 			);
@@ -280,6 +284,15 @@
 				4B08E6291BB1A80F00DAF2E9 /* PreOrderCell.m */,
 			);
 			name = views;
+			sourceTree = "<group>";
+		};
+		4BA16A281BB2EF2000A4F42A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4BA16A291BB2EF2E00A4F42A /* StudentCell.h */,
+				4BA16A2A1BB2EF2E00A4F42A /* StudentCell.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 		5C137EDB1BA9414D00EC5DF4 /* Include */ = {
@@ -674,6 +687,7 @@
 				5C137F341BA9414D00EC5DF4 /* UserInfo.m in Sources */,
 				5C137F4F1BA9414D00EC5DF4 /* STDb.m in Sources */,
 				5C137F641BA9428200EC5DF4 /* BaseViewController.m in Sources */,
+				4BA16A2B1BB2EF2E00A4F42A /* StudentCell.m in Sources */,
 				5C137F451BA9414D00EC5DF4 /* MJIvar.m in Sources */,
 				5C137F501BA9414D00EC5DF4 /* STDbHandle.m in Sources */,
 				5C137F4D1BA9414D00EC5DF4 /* NSString+MD5.m in Sources */,
